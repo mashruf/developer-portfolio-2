@@ -19,6 +19,7 @@ h2{
 
 .flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -28,6 +29,7 @@ h2{
 
 .half-width img{
     width: 80%;
+    
 }
 
 .click-link{
@@ -40,7 +42,13 @@ h2{
 
 }
 
-.flexible-container{
+.top-banner{
     background-image: url(images/thinking.png);
     background-repeat: no-repeat;
+}
+
+.goal-banner{
+    background-image: url(images/thinking.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
